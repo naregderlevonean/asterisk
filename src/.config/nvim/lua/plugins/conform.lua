@@ -17,7 +17,7 @@ return {
 		},
 		formatters = {
 			prettierd = {
-				require_cwd = true,
+				require_cwd = false,
 				prepend_args = {
 					"--tab-width",
 					"4",
@@ -61,6 +61,7 @@ return {
 			rust = { "rustfmt" },
 			scss = prettier,
 			sh = { "shfmt" },
+			svg = { "xmllint" },
 			swift = { "swiftformat" },
 			toml = { "taplo" },
 			typescript = prettier,
